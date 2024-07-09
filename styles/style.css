@@ -17,9 +17,9 @@
     opacity: 0.7;
 }
 
-.section-er-bame-dane{
-    margin-left: 150px;
-    margin-right: 150px;
+.section-margin{
+    margin-left: 190px;
+    margin-right: 190px;
 }
 /* Navigation Section */
 
@@ -196,4 +196,91 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     cursor: pointer;
+}
+
+/* Inspiration Section */
+.inspiration-container{
+    margin-bottom: 183px;
+    /* height: 200px;
+    border: 2px solid red; */
+}
+.inspiration-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.inspiration-header-title{
+    margin-top: 88px;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.inspiration-header-paragraph{
+    padding: 0 125px;
+    margin-bottom: 80px;
+}
+.video-container{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.video-container iframe{
+    /* padding: 20px 0px; */
+    /* border: 2px solid red; */
+    border-radius: 16px;
+}
+
+/* Current Title Section */
+.current-target-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.current-items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 24px;
+}
+.current-item1, .current-item2, .current-item3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+}
+.current-item-name{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.current-item a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-top: 24px;
+}
+.current-item1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.current-item2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.current-item3{
+    background-color: rgba(255, 223, 0, 0.05);
 }

@@ -24,7 +24,7 @@
 /* Navigation Section */
 
 .nav-section{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 .nav-content{
@@ -200,7 +200,7 @@
 
 /* Inspiration Section */
 .inspiration-container{
-    margin-bottom: 183px;
+    margin-bottom: 100px;
     /* height: 200px;
     border: 2px solid red; */
 }
@@ -395,4 +395,32 @@
     line-height: 23px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+}
+
+/* Footer Section */
+.footer-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+}
+.footer-content{
+    padding: 32px 155px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-name{
+    display: flex;
+    align-items: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
